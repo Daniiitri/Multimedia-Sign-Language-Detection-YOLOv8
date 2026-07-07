@@ -1,0 +1,10 @@
+# Abaikan folder dataset dan cache
+dataset/
+__pycache__/
+.pytest_cache/
+
+# Abaikan folder hasil training lokal jika ukurannya terlalu besar
+runs/
+
+# Jalur model (opsional, best.pt ukurannya ~6MB jadi aman kalau mau diunggah)
+# yolov8n.pt
